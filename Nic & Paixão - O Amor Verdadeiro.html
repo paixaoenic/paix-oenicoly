@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://127.0.0.1:5500/index.html#contato -->
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nic &amp; Paixão - O Amor Verdadeiro</title>
+    <link rel="stylesheet" href="./Nic &amp; Paixão - O Amor Verdadeiro_files/style.css">
+</head>
+<body>
+    <header>
+        <h1>Nic &amp; Paixão</h1>
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/index.html#sobre">Sobre Nós</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#galeria">Galeria</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Somos Nicoly e Paixão, um casal apaixonado que compartilha momentos incríveis juntos.</p>
+            <p>Nossa história de amor é única e queremos compartilhá-la com vocês neste site.</p>
+        </div>
+    </section>
+    <section id="galeria">
+        <div class="container">
+            <h2>Galeria</h2>
+            <section id="galeria">
+                <div class="container">
+                    <div class="gallery">
+                        <img src="./Nic &amp; Paixão - O Amor Verdadeiro_files/paixaoenic.png" alt="Foto 1">
+                        <img src="./Nic &amp; Paixão - O Amor Verdadeiro_files/paixaoenic2.jpeg" alt="Foto 2">
+                        <img src="./Nic &amp; Paixão - O Amor Verdadeiro_files/paixao 3.jpeg" alt="Foto 3">
+                        <img src="./Nic &amp; Paixão - O Amor Verdadeiro_files/paixaoenic4.jpeg" alt="Foto 4">
+                        <img src="./Nic &amp; Paixão - O Amor Verdadeiro_files/paixaoenic5.jpeg" alt="Foto 5">
+                        <img src="./Nic &amp; Paixão - O Amor Verdadeiro_files/paixao e nic7.jpeg" alt="Foto 6">
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Adicione suas imagens da galeria aqui -->
+        </div>
+    </section>
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Quer nos enviar uma mensagem de amor? Preencha o formulário abaixo:</p>
+            <form action="http://127.0.0.1:5500/index.html#">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required="">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required="">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required=""></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 Nic &amp; Paixão - Todos os direitos reservados</p>
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+<div class="moldura-um">
+    <div class="moldura-dois"></div>
+    <div class="conteudo"></div>
+    </div>
+    
+</body></html>
